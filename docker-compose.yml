@@ -1,0 +1,7 @@
+version: '3.7'
+volumes:
+  docker_volumes:
+services:
+  alea:
+    build: ./random-app
+    privileged: true
