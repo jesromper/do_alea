@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Generador de números aleatorios</title>
+        <script type="text/javascript" src="random.js"></script>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body onload="init()">
+        <h1>Generador de números aleatorios 🎲</h1>
+
+        <div class="images">
+            <img src="random.gif">
+            <br/>
+            <img src="ship.png" class="s-size">
+        </div>
+
+        <button onclick="clearAll()">💣 Borrar</button>
+        <button onclick="newNumber()">🎰 Generar</button>
+
+        <div id="generado" class="display-number">
+            -
+        </div>
+
+        <footer>
+            <p>Hecho con 💖 desde Sevilla. Versión: 
+                <span id="appVersion" class="version"></span>
+            </p>
+        </footer>
+
+    </body>
+</html>

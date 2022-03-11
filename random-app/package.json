@@ -1,0 +1,25 @@
+{
+  "name": "random-app",
+  "version": "1.3.0",
+  "description": "Generate random numbers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha",
+    "test:ci": "mocha --reporter mocha-teamcity-reporter",
+    "coverage": "nyc --reporter=html mocha",
+    "coverage:ci": "nyc --reporter=teamcity mocha"
+  },
+  "author": "Pedro J. Molina",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.2",
+    "mocha-teamcity-reporter": "^3.0.0",
+    "nyc": "^15.1.0",
+    "snyk": "^1.483.0"
+  }
+}

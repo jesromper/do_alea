@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+body {
+    font-family: Kalam, cursive;
+    font-size: 30px;
+
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,871515+2,871515+3,871515+3,ffffff+5 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #871515 2%, #871515 3%, #871515 3%, #ffffff 5%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#871515 2%,#871515 3%,#871515 3%,#ffffff 5%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#871515 2%,#871515 3%,#871515 3%,#ffffff 5%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); 
+}
+
+.images {
+    float: right;
+}
+
+
+button {
+    padding: 0px 30px;
+    font-family: Kalam, cursive;
+    font-size: 30px;
+}
+
+.display-number {
+    margin-left: 256px;
+    font-size: 200px;
+}
+
+footer {
+    text-align: right;
+}
+
+.s-size {
+    height: 300px;
+}
+.version {
+    font-weight: bold;
+}
